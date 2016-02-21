@@ -2,7 +2,7 @@
   "name": "sentiment_tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/lexiross/sentiment_tracker#readme",
   "dependencies": {
-    "sentiment": "^1.0.6"
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "lodash": "^4.5.0",
+    "moment": "^2.11.2",
+    "morgan": "^1.7.0",
+    "sentiment": "^1.0.6",
+    "twitter": "^1.2.5"
   }
 }
